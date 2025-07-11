@@ -1,0 +1,132 @@
+.hero-section h2,
+.hero-section h3 {
+    line-height: 1.4;
+}
+
+.badge {
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 12px;
+}
+
+/* what-we-offer.component.css */
+.offer-section {
+    background-color: #fff;
+}
+
+.offer-section h3 {
+    font-size: 1.8rem;
+}
+
+.offer-section p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+img {
+    width: 70%;
+    height: 100%;
+}
+
+.stat-card {
+    transition: transform 0.3s ease;
+}
+
+.stat-card:hover {
+    transform: translateY(-5px);
+}
+
+.stats-section {
+    background-color: #f9f9f9;
+}
+
+.testimonial-section {
+    background: #fff;
+    position: relative;
+}
+
+.testimonial-box {
+    max-width: 850px;
+    border-radius: 16px;
+    background-color: #ffffff;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.07);
+}
+
+.text-primary {
+    color: #20a4b5;
+    /* matching the teal-like blue */
+}
+
+@media (max-width: 768px) {
+    .testimonial-box {
+        padding: 2rem;
+    }
+}
+
+.demo-section {
+    background: #fff;
+}
+
+.card-demo {
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.06);
+    transition: transform 0.3s ease;
+}
+
+.card-demo:hover {
+    transform: translateY(-8px);
+}
+
+.text-info {
+    color: #20a4b5;
+    /* EQL-like Teal */
+}
+
+.text-success {
+    color: #00b894;
+    /* Optional green for "free" content */
+}
+
+@media (max-width: 768px) {
+    .card-demo {
+        padding: 2rem 1.5rem;
+    }
+}
+
+.footer-section {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.footer-top {
+    background-color: #94deea;
+}
+
+.footer-top h2 {
+    font-size: 2rem;
+}
+
+.footer-top .btn {
+    font-weight: 500;
+    padding: 0.6rem 1.5rem;
+    border-radius: 8px;
+}
+
+.footer-middle {
+    background-color: #bfe7ed;
+}
+
+.footer-middle h5 {
+    color: #000;
+}
+
+.footer-middle ul li {
+    margin-bottom: 0.3rem;
+    color: #333;
+}
+
+.social-icons i {
+    font-size: 1.2rem;
+    color: #333;
+    cursor: pointer;
+}
